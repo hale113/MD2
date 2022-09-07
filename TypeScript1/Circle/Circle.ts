@@ -1,7 +1,7 @@
-class Circle {
-    private radius: number;
+class Circle{
+    public radius: number;
     constructor(radius: number) {
-        this.radius = radius;
+        this.radius = radius
     }
 }
 export default Circle;
