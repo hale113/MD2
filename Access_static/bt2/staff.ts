@@ -1,21 +1,17 @@
 import {Role} from "./enum"
+
 export class Staff {
-    ID: number;
+    id: number;
     name: string;
     dateOfBirth: string;
     address: string;
     role: Role;
 
-    constructor(ID: number,
-                name: string,
-                dateOfBirth: string,
-                address: string,
-                role: Role) {
-        this.ID = ID;
+    constructor(id: number, name: string, dateOfBirth: string, address: string, role: Role) {
+        this.id = id;
         this.name = name;
-        this.dateOfBirth= dateOfBirth;
+        this.dateOfBirth = dateOfBirth;
         this.address = address;
-        this.role = Role;
+        this.role = role;
     }
-
 }
