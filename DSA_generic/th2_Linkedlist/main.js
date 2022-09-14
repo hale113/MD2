@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var LinkedList_1 = require("./LinkedList");
+var linkedList = new LinkedList_1.LinkedList();
+linkedList.insertFirstNode(2);
+linkedList.insertFirstNode(3);
+linkedList.insertFirstNode(4);
+linkedList.insertFirstNode(5);
+linkedList.insertLastNode(30);
+console.log(linkedList.getSize());
+console.log(linkedList.readList());
