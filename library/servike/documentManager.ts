@@ -13,12 +13,9 @@ export class DocumentManager implements IDocumentManager<Document>{
 
     edit(id: number) {
     }
-
     finById(id: number) {
         for (let i = 0; i < this.documents.length; i++) {
-            if (this.documents[i].id ==id){
-                return i
-            }
+
         }
         return -1;
 
